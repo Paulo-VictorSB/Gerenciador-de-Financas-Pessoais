@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #333;
+}
+
+.container {
+    width: 400px;
+    height: 600px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.13);
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(0, 0, 0));
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 15%;
+    padding: 10px;
+    font-size: 1.5em;
+}
+
+main {
+    background: url(../src/banner.jpeg);
+    height: 60%;
+    color: white;
+    padding: 10px;
+    background-position: bottom;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-flow: column nowrap;
+    font-size: 1.2em;
+    border-radius: 5px;
+}
+
+.texto {
+    width: 60%;
+}
+
+.texto button {
+    background: none;
+    color: white;
+    border: 2px solid white;
+    width: 90%;
+    padding: 5px;
+    margin-top: 5px;
+    transition: .3s;
+}
+
+.texto button:hover {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid white;
+    color: black;
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 20%;
+}
+
+.box {
+    width: 30%;
+    gap: 5px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column wrap;
+    transition: .3s;
+}
+
+.box:hover {
+    background-color: #6d0904;
+    animation: jumper .9s infinite;
+    cursor: pointer;
+    color: white;
+}
+
+@keyframes jumper {
+    0% {
+        transform: translateY(-2px);
+    }
+    
+    50% {
+        transform: translateY(2px);
+    }
+
+    100% {
+        transform: translateY(-2px);
+    }
+}
+
+.logarContainer {
+    background: url(../src/banner.jpeg);
+    height: 85%;
+    color: white;
+    padding: 10px;
+    background-position: left;
+    display: flex;
+    flex-flow: column nowrap;
+    font-size: 1.2em;
+    border-radius: 5px;
+    gap: 10px;
+}
+
+.logarContainer input[type='text']{
+    background: none;
+    border: 1px solid white;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+::-webkit-input-placeholder {
+    color: white;
+}
+
+.logarContainer input[type='submit'] {
+    background: none;
+    color: white;
+    border: 2px solid white;
+    padding: 5px;
+    margin-top: 5px;
+    transition: .3s;
+}
+
+.logarContainer input[type='submit']:hover {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid white;
+    color: black;
+    cursor: pointer;
+}
+
+#banner {
+    background: url(../src/banner.jpeg);
+    height: 30%;
+    background-size: cover;
+}
+
+#boasVindas {
+    margin-top: 50px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+#saldo {
+    background-color: white;
+    height: 40px;
+    width: 95%;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: -20px;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#saldoMostrar {
+    height: 0;
+    opacity: 0;
+    width: 95%;
+    border-radius: 0px 0px 5px 5px;
+    margin: auto;
+    margin-top: -4px;
+    color: black;
+    font-weight: bold;
+    overflow: hidden;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 0 10px;
+    background-color: white;
+    transition: height 0.3s ease-out, opacity 0.3s ease-out;
+}
+
+#saldoMostrar h1 {
+    margin-left: 17px;
+}
+
+#saldo:hover {
+    cursor: pointer;
+}
+
+.expanded {
+    height: 80px;
+    opacity: 1;
+    padding: 10px;
+}
+
+.footer {
+    width: 95%;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 10px;
+    flex-flow: column nowrap;
+    gap: 20px;
+}
+
+.footer form {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-flow: column nowrap;
+    gap: 5px;
+}
+
+.footer form input[type="number"]{
+    background: none;
+    border: 1px solid white;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.footer form input[type="submit"]{
+    color: white;
+    background-color: rgb(206, 16, 7);
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
