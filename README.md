@@ -23,9 +23,11 @@ Um sistema simples e eficiente para controle de finanças pessoais, permitindo o
 1. Clone este repositório:
    ```bash
    git clone https://github.com/seu-usuario/gerenciador-financas.git
-   
-![Texto alternativo](scr/tela1.png)
-![Texto alternativo](scr/tela2.png)
-![Texto alternativo](scr/tela3.png)
-![Texto alternativo](scr/tela4.png)
-![Texto alternativo](scr/tela5.png)
+
+![Texto alternativo](src/tela1.png)
+![Texto alternativo](src/tela2.png)
+![Texto alternativo](src/tela3.png)
+![Texto alternativo](src/tela4.png)
+![Texto alternativo](src/tela5.png)
+
+---
