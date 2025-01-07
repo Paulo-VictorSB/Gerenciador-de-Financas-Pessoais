@@ -57,3 +57,33 @@ Antes de executar o projeto, você precisará de:
 1. Clone este repositório no seu computador:
    ```bash
    git clone https://github.com/seu-usuario/gerenciador-financas.git
+
+---
+
+## **🔧 Melhorias Futuras**
+Embora o projeto esteja funcional, há várias melhorias que podem ser feitas para torná-lo ainda mais robusto:
+
+- Autenticação de Usuário: Implementar sessões ou um banco de dados para que cada usuário tenha seu próprio acesso e dados protegidos.
+- Gráficos de Desempenho: Adicionar gráficos interativos para visualizar o histórico financeiro do usuário.
+- Histórico de Transações: Permitir que o usuário visualize um registro de todas as adições e subtrações realizadas.
+- Multilinguagem: Adicionar suporte a múltiplos idiomas para maior acessibilidade.
+
+---
+
+## **📄 Licença**
+- Este projeto está licenciado sob a Licença MIT. Veja o arquivo LICENSE para mais detalhes.
+
+---
+
+## **💻 Contato**
+Criado por Paulo Victor – [Meu Linkedin](https://www.linkedin.com/in/paulo-barbosa-77199925a/)
+Email: paulovdbarbosa@gmail.com
+
+---
+
+Feito com 💙 para aprendizado e compartilhamento de conhecimento. Se você tiver sugestões ou quiser colaborar, fique à vontade para entrar em contato!
+
+---
+
+## **📢 Contribuições**
+Contribuições são bem-vindas! Se você quiser melhorar o projeto ou adicionar novas funcionalidades, sinta-se à vontade para abrir um pull request.
